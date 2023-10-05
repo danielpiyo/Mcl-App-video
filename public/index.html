@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Mclinic Video Demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Twilio Video CDN -->
+    <script src="https://sdk.twilio.com/js/video/releases/2.15.2/twilio-video.min.js"></script>
+</head>
+
+<body>
+    <form id="room-name-form">
+        Enter a Room Name to join: <input name="room_name" id="room-name-input" />
+        <button type="submit">Join Room</button>
+    </form>
+    <div id="video-container"></div>
+
+    <!-- Controls for the local participant -->
+    <div id="controls" style="display: none;">
+        <button id="mute-audio-button">Mute Audio</button>
+        <button id="pause-video-button">Pause Video</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

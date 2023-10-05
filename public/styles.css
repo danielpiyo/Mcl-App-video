@@ -1,0 +1,72 @@
+/* Reset some default styling */
+body,
+h1,
+p,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Form styling */
+#room-name-form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#room-name-input {
+  padding: 8px;
+}
+
+button[type="submit"] {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Video container styling */
+/* #video-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+} */
+
+/* Individual participant video styling */
+/* #video-container video {
+  width: 240px;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} */
+
+/* Video container styling */
+#video-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Individual participant video styling */
+#video-container video {
+  width: 360px; /* Adjust the width as needed */
+  height: 240px; /* Adjust the height as needed */
+  max-width: 100%;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
